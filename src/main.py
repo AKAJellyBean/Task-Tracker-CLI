@@ -8,7 +8,7 @@ import os
 
 
 # Initializing file path
-file_path = "../data/task.json"
+file_path = "./data/task.json"
 
 
 # Initializing nessasry instances
@@ -38,7 +38,7 @@ def get_data():
 
 def main():
 
-    file_validate("../data", file_path)
+    file_validate("./data", file_path)
     while True:
         # Initialize available commands
         command = None
