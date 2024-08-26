@@ -1,5 +1,7 @@
 # Task-Tracker-CLI
 
+### solution for task tracker CLI by [roadmap.sh](https://roadmap.sh/projects/task-tracker)
+
 ## Description
 Task Tracker CLI is a command-line interface application designed to help you manage your tasks efficiently. With this tool, you can add, update, delete, mark, and list tasks directly from the command line.
 
@@ -106,6 +108,16 @@ task-cli: list "todo"
 # List tasks that are in progress
 task-cli: list "in-progress"
 ```
+**Help**
+
+To get help about available commands and their usage, use the following structure:
+
+- **Command: ``help``**
+
+```bash
+task-cli: help
+```
+
 > [!IMPORTANT]  
 > When adding, updating, or marking tasks, ensure that the descriptions are enclosed in double or single quotes. IDs do not require quotes.
 

@@ -1,6 +1,7 @@
 # Importing necessary files
 from create_file import create_file
 from validator import separate_commands
+from help import print_help
 from task_manager import TaskManager
 from task import Task
 import os
@@ -94,6 +95,8 @@ def main():
         elif command == "list":
             task.list_task(arg)
 
+        elif command == "help":
+            print_help()
         elif command == "quit":
             print("Exiting")
             break  
