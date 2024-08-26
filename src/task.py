@@ -9,7 +9,7 @@ class Task:
         self.status = status
         self.created_at = created_at
         self.updated_at = updated_at
-        self.file_path = "../data/task.json"
+        self.file_path = "./data/task.json"
     
     def create_task(self):
         # Load the existing task list
